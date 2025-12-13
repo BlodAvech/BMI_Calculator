@@ -1,0 +1,85 @@
+$darkColor: #A4B8C4;
+$Color: #C8D3D5;
+$lightColor: #FCFAFA;
+	
+*
+	margin: 0;
+body 
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	background-color: $Color;
+
+.header
+	text-align: center;
+	background-color: $darkColor;
+	height: 100px;
+	align-content: center;
+	color: $lightColor;
+
+	.title
+		font-size: 36px;
+
+	.subtitle
+		font-size: 24px;
+
+.main
+	display: flex;
+	justify-content: center;
+
+	form
+		display: flex;
+		flex-direction: column;
+		background-color: $darkColor;
+		width: 270px;
+		height: 480px;
+		margin-top: 20px;
+		border-radius: 20px;
+		text-align: center;
+
+		#weight , #height , label
+			margin: 10px 0px 5px 0px;
+
+		input
+			border-radius: 5px;
+			align-self: center;
+			text-align: center;
+			width: 50%;
+
+		button
+			margin-top: 20px;
+			border-radius: 5px;
+			align-self: center;
+			width: 50%
+
+		.answer_panel
+			display: grid
+			grid-template-rows: auto 1fr auto
+			min-height: 200px
+			align-items: center
+			justify-items: center
+		
+			.title
+				align-self: start
+				font-size: 18px
+				font-weight: bold
+				color: #333
+				margin-top: 10px
+			
+			.answer
+				font-size: 48px
+				font-weight: bold
+				color: #2c3e50
+				line-height: 1
+				align-self: center
+			
+			.result
+				align-self: end
+				font-size: 24px
+				color: #ffffff
+				font-weight: 700
+				margin-bottom: 20px
+
+
+

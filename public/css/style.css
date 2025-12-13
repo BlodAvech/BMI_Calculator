@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #C8D3D5;
+}
+
+.header {
+  text-align: center;
+  background-color: #A4B8C4;
+  height: 100px;
+  align-content: center;
+  color: #FCFAFA;
+}
+.header .title {
+  font-size: 36px;
+}
+.header .subtitle {
+  font-size: 24px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+.main form {
+  display: flex;
+  flex-direction: column;
+  background-color: #A4B8C4;
+  width: 270px;
+  height: 480px;
+  margin-top: 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+.main form #weight, .main form #height, .main form label {
+  margin: 10px 0px 5px 0px;
+}
+.main form input {
+  border-radius: 5px;
+  align-self: center;
+  text-align: center;
+  width: 50%;
+}
+.main form button {
+  margin-top: 20px;
+  border-radius: 5px;
+  align-self: center;
+  width: 50%;
+}
+.main form .answer_panel {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 200px;
+  align-items: center;
+  justify-items: center;
+}
+.main form .answer_panel .title {
+  align-self: start;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 10px;
+}
+.main form .answer_panel .answer {
+  font-size: 48px;
+  font-weight: bold;
+  color: #2c3e50;
+  line-height: 1;
+  align-self: center;
+}
+.main form .answer_panel .result {
+  align-self: end;
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 700;
+  margin-bottom: 20px;
+}/*# sourceMappingURL=style.css.map */
